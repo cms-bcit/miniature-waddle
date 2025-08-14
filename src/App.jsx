@@ -7,7 +7,7 @@ function App() {
 
   return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename="/miniature-waddle">
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/movie/:id' element={<MovieDetails />} />
